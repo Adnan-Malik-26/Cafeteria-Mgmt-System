@@ -22,6 +22,7 @@ int main()
         if (strcmp(password,"pass")==0)
         {
             printf("Login Successful.");
+            system("cls");
             
 {
     printf("**********WELCOME TO THE CAFETERIA**********\n");

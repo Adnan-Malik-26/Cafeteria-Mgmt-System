@@ -16,11 +16,11 @@ int main()
     printf("Enter your password:\n"); 
     scanf("%s",&password); 
  
-    if(strcmp(username,"chaitu")==0){ 
-        if(strcmp(password,"123")==0){ 
+    if(strcmp(username,"user")==0){ 
+        if(strcmp(password,"pass")==0){ 
  
         printf("\nWelcome.Login Success!"); 
- 
+        system("cls");
  
         }else{ 
     printf("\nwrong password"); 
