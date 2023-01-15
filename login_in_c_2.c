@@ -1,8 +1,7 @@
 #include <stdio.h> 
 #include <string.h> 
 #include <conio.h> 
- 
-//created by chaitanya 
+
  
 int main() 
 { 
@@ -16,17 +15,12 @@ int main()
     printf("Enter your password:\n"); 
     scanf("%s",&password); 
  
-    if(strcmp(username,"user")==0){ 
-        if(strcmp(password,"pass")==0){ 
- 
+    if(strcmp(username,"user")==0&&strcmp(password,"pass")==0){ 
+
         printf("\nWelcome.Login Success!"); 
-        system("cls");
- 
-        }else{ 
-    printf("\nwrong password"); 
 } 
-    }else{ 
-    printf("\nUser doesn't exist"); 
+    else{ 
+    printf("\nWrong Password or Username"); 
 } 
  
  
