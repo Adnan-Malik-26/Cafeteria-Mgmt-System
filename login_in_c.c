@@ -11,6 +11,7 @@ int main()
     int pizza_total,pasta_total,momos_total,chowmein_total,fried_rice_total;
     
     adnan:
+    printf("LOGIN PAGE")
     printf("Username: ");
     scanf("%s",&username);
     printf("Password: ");
@@ -91,11 +92,16 @@ int main()
     {
         goto repeat;
     }
-    else
+    else if (order==0)
     {
         printf("Thank You For Ordering.\n");
         printf("Total is Rs.%d.\n",total);
     }
+    else 
+    {
+        printf("Wrong Choice.");
+    }
+   
     
     system("pause");  
     return 0;
