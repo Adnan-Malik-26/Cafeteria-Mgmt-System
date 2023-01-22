@@ -11,7 +11,7 @@ int main()
     int pizza_total,pasta_total,momos_total,chowmein_total,fried_rice_total;
     
     adnan:
-    printf("LOGIN PAGE")
+    printf("LOGIN PAGE");
     printf("Username: ");
     scanf("%s",&username);
     printf("Password: ");
