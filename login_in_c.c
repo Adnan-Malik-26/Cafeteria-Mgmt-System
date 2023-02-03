@@ -10,7 +10,7 @@ int main()
     int chow=0,pizza=0,pasta=0,momos=0,rice=0;
     int pizza_total,pasta_total,momos_total,chowmein_total,fried_rice_total;
     
-    adnan:
+    login:
     printf("LOGIN PAGE");
     printf("Username: ");
     scanf("%s",&username);
@@ -112,7 +112,7 @@ int main()
         else
         {
             printf("Wrong Password, Try Again.\n");
-            goto adnan;
+            goto login;
         }
         
         
@@ -120,9 +120,6 @@ int main()
     else
     {
         printf("User Does Not Exist, Try Again.\n");
-        goto adnan;
+        goto login;
     }
-    
-    
-
 }
