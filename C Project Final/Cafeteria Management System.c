@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
+#include <ctype.h>
 int main()
 {
     char username[10],password[10];
@@ -43,6 +44,8 @@ int main()
         repeat:
     printf("Please Enter Your Choice: ");
     scanf("%d",&choice);
+    
+        
         
     switch (choice)
     {
